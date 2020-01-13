@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Seminar</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+
+    <meta name="theme-color" content="#2A3443" />
+    <meta
+      name="description"
+      content="PWA Tutorial Application for a fictional conference."
+    />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-title" content="PWAConf" />
+  </head>
+
+  <body>
+    <header><h1>Seminar Nasional Artificial Intelligence</h1></header>
+
+    <nav>
+      <a href="#speakers">Narasumber</a> <a href="#schedule">Jadwal</a>
+      
+
+    <div class="alert" role="alert" hidden>
+      Your browser does not support ServiceWorker. The app will not be available
+      offline.
+    </div>
+
+    <main>
+      <p>
+       Mengoptimalkan Kecerdasan Buatan Dalam Bidang Digital Creative Pada Era Teknologi Informasi <b>September 13-14</b> Gedung Cinta Bahagian
+      </p>
+        <a href="https://vaadin.com/tutorials/learn-pwas">doing the tutorial</a
+        >.
+      </p>
+
+      <h2 id="speakers">Narasumber</h2>
+      <div class="speakers"><div class="loader" hidden>Loading...</div></div>
+
+      <h2 id="schedule">Jadwal</h2>
+
+      <p>Semua presentasi akan diadakan di ruangan BAB5</p>
+      <div class="schedule"><div class="loader" hidden>Loading...</div></div>
+    </main>
+    <footer>
+      <p>
+       Artificial Intelegence menurut Bpk Ary Saputra S.Kom adalah sebuah tempat sebuah penelitian, aplikasi dan instruksi yang terkait dengan pemrograman komputer untuk melakukan sesuatu hal yang dalam pandangan manusia adalah cerdas.
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,1 +1,0 @@
-# gustiarysaputra.github.io
